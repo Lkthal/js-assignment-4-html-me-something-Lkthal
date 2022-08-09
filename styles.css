@@ -1,0 +1,163 @@
+/* Write your CSS here! */
+
+body{
+  margin: 8px;
+  display: block;
+}
+
+#mainHeading{
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  }﻿
+
+  h1{
+    font-family: "Lato";
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+h2, h3, h5, p{
+  font-family: "Maven Pro";
+  padding-top: 10px;
+}
+
+
+  .quote{
+    font-family: "Lato";
+    font-size: 1.5em;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    text-align: center;
+
+  }
+
+.title{
+  display: inline;
+  float: left;
+  margin-left: 20px;
+  font-family: "Maven Pro";
+  justify-content: center;
+  color: #fff;
+}
+
+li{
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-family: "Maven Pro";
+  justify-content: center;
+  color: #fff;
+
+}
+
+a, a:hover, a:focus, a:active {
+text-decoration: none;
+color: inherit;
+}
+
+.main-image{
+  position: relative;
+  background: url("img/Loch_Ness_Lake.jpg") no-repeat center;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container h1{
+  margin: 0;
+  font-style: 70px;
+  font-size: 2.8em;
+}
+
+.container h3{
+  margin: 0;
+  font-family: "Lato";
+  padding-top: 10px;
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
+}
+
+.container h1 span {
+  border: 6px solid white;
+  padding: 6px 14px;
+  display: inline-block;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  z-index: 100;
+  color: lightgray;
+  font-family: "Lato";
+
+}
+
+.landing-text h1{
+  font-size: 5em;
+  font-weight: 700;
+}
+
+.padding{
+  padding: 80px 0;
+}
+.padding img{
+  width: 100%;
+}
+
+
+/* image */
+img{
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Add a card effect for articles */
+.card {
+   background-color: rgba(248,247,246,.9);
+   padding: 20px;
+   margin-top: 20px;
+   margin: auto;
+   width: 80%;
+
+}
+.row{
+  padding-top: 5em;
+}
+
+/* Footers */
+
+footer{
+  padding-top: 4em;
+  background-color: #fff;
+  color: gray;
+  text-align: center;
+  position: relative;
+}
